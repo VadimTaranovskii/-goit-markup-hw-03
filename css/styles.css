@@ -48,10 +48,10 @@ ul {
     outline: 2px solid #ed0a0a;
 }
 
-.section {
+/*.section {
     padding-top: 15px;
     padding-bottom: 15px;
-}
+}*/
 
 ul {
     list-style: none;
@@ -171,8 +171,8 @@ img {
 .hero {
     background-color: var(--background-color);
     text-align: center;
-    width: 1600px;
-    height: 600px;
+    max-width: 1600px;
+    /*height: 600px;*/
     padding-top: 200px;
     padding-bottom: 200px;
     margin-left: auto;
@@ -230,7 +230,8 @@ img {
 
 .feature-item {
     width: 270px;
-    
+    margin-top: 94px;
+    margin-bottom: 0px;
 }
 
 .feature-item:not(:last-child){
@@ -256,13 +257,11 @@ img {
 
 .features {
     outline: 2px solid #ed0a0a;
+    /*padding-top: 94px;
+    padding-bottom: 94px;*/
 }
 
 /*-----------------SERVICE-----------------------*/
-
-.work {
-    padding-top: 0;
-}
 
 .work-list {
     justify-content: space-between;
@@ -283,10 +282,13 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+    margin-bottom: 50px;
 }
 
 .work {
     outline: 2px solid #ed0a0a;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*-----------------TEAM-SPACE--------------------*/
@@ -294,6 +296,7 @@ img {
 .team-list {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 94px;
 }
 
 .team-title {
@@ -302,6 +305,7 @@ img {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 30px;
     color: var(--headertext-color);
 }
 
@@ -313,7 +317,7 @@ img {
 .team-item {
     display: block;
     width: 270px;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -338,12 +342,14 @@ img {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    margin-top: 10px;
     color: var(--text-color);
 }
 
-.team {
+.section .team {
     background-color: var(--onetime-color);
-    width: 1600px;
+    /*width: 1600px;*/
     margin-left: auto;
     margin-right: auto;
     outline: 2px solid #ed0a0a;
@@ -352,7 +358,7 @@ img {
 /*-----------------FOOTER------------------------*/
 
 .footer-section {
-    width: 1600px;
+    /*width: 1600px;*/
     height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
