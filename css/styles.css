@@ -432,7 +432,7 @@ img {
     background-color: var(--main-color);
 }
 
-.filter-button {
+.filter-link {
     border: none;
     font-family: 'Roboto';
     font-style: normal;
@@ -452,17 +452,17 @@ img {
     border-color: transparent;
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-link:hover,
+.filter-link:focus {
     color: var(--light-color);
 }
 
-.filter-button:active {
+.filter-link:active {
     background-color: var(--main-color);
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-link:hover,
+.filter-link:focus {
     background-color: var(--main-color)
 }
 
