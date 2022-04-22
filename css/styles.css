@@ -254,12 +254,6 @@ img {
     color: var(--text-color);
 }
 
-.features {
-    /*outline: 2px solid #ed0a0a;*/
-    /*padding-top: 94px;
-    padding-bottom: 94px;*/
-}
-
 /*-----------------SERVICE-----------------------*/
 
 .work-list {
@@ -434,6 +428,10 @@ img {
 
 /*-----------------FILTER------------------------*/
 
+.filter-link.current {
+    background-color: var(--main-color);
+}
+
 .filter-button {
     border: none;
     font-family: 'Roboto';
@@ -483,21 +481,15 @@ img {
 
 .filter-button {
     margin-right: 8px;
-    margin-top: 94px;
 }
 
 .filter-list.filter-button+.filter-button {
     margin-left: 0;
 }
 
-.filter {
-    outline: 2px solid #ed0a0a;*/
-}
-
 .main-list{
     /*width: calc((100% - 60px) / 3);*/
     justify-content: space-between;
-    outline: 2px solid #ed0a0a;*/
 }
 
 .main-item {
@@ -552,10 +544,6 @@ img {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-}
-
-.gallery {
-    outline: 2px solid #ed0a0a;*/
 }
 
 /*-----------------FOOTER------------------------*/
