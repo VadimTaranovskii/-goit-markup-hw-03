@@ -229,7 +229,6 @@ img {
 
 .feature-item {
     width: 270px;
-    /*margin-top: 94px;*/
     margin-bottom: 0px;
 }
 
@@ -255,6 +254,10 @@ img {
     color: var(--text-color);
 }
 
+.features.section {
+    padding-bottom: 0px;
+}
+
 /*-----------------SERVICE-----------------------*/
 
 .work-list {
@@ -270,14 +273,12 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-color);
     margin-bottom: 50px;
-    margin-top: 94px;
 }
 
-/*.work {
-    outline: 2px solid #ed0a0a;
-    /*padding-top: 94px;*/
-    /*padding-bottom: 94px;
-}*/
+.work.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /*-----------------TEAM-SPACE--------------------*/
 
@@ -425,6 +426,7 @@ img {
 
 .filter-link.current {
     background-color: var(--main-color);
+    color: var(--light-color);
 }
 
 .filter-link {
@@ -495,7 +497,7 @@ img {
 }
 
 .main-item:nth-child(n+7) {
-    margin-bottom: 0px;
+    margin-bottom: px;
 }
 
 .icon-text {
